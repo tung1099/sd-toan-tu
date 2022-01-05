@@ -1,8 +1,8 @@
-let inputWidth;
-let inputHeight;
-inputWidth = prompt("Nhap chieu rong");
-inputHeight = prompt("nhap chieu dai");
-let width = parseInt(inputWidth);
-let height = parseInt(inputHeight);
+let chieuDai;
+let chieuRong;
+chieuDai = prompt("Nhap chieu rong");
+chieuRong = prompt("nhap chieu dai");
+let width = parseInt(chieuDai);
+let height = parseInt(chieuRong);
 let area = width * height;
 document.write("Dien tich la: " + area);
